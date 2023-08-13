@@ -1,0 +1,82 @@
+.jumbolist {
+    font-size: 1.5em;
+}
+#svg {
+    margin-left: 5px;
+}
+#mini_timeline {
+    padding-bottom: 2em;
+}
+.mini_axis text { 
+
+}
+.databutton {
+    min-width: 300px;
+    text-align: right;
+}
+#databuttontext {
+    float: left;
+}
+#currentdataset {
+
+    float: left;
+}
+#buttoncaretwrapper {
+
+}
+#databuttondropdown {
+    min-width: 300px;
+}
+#navv {
+    background-color: white;
+    width: 330px;
+    padding-right: 10px;
+    height: 1500px;
+    float: left;
+    overflow: scroll;
+    margin: 5px;
+}
+#testwrapper {
+    padding-top: 1000px;
+    padding-bottom: 1200px;
+}
+.guiheader {
+    padding-top: 2em;
+}
+#timelineDes {
+    border-left: 3px solid #eee;
+    padding-left: 2px;
+}
+
+#timelineTitle {
+    border-left: 3px solid #eee;
+    padding-left: 2px;
+}
+
+#timelineenddate, #timelinestartdate {
+    border-left: 3px solid #eee;
+    padding-left: 2px;
+}
+
+/* for d3 plotting */
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.mini_axis path, .mini_axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.selected {
+    stroke: #6C7A89;
+    stroke-width: 5;
+}
+
+.mini_selected {
+    stroke: #6C7A89;
+    stroke-width: 2;
+}
